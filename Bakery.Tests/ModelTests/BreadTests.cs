@@ -16,7 +16,7 @@ namespace Bakery.Tests
    public void GetCost_ReturnsCost_Int()
    {
      int cost = 0;
-     Bread newBread = new Bread(cost);
+     Bread newBread = new Bread(1);
      Assert.AreEqual(cost, newBread.Cost);
    }
    public void SetCount_SetCount_Int()
@@ -24,6 +24,15 @@ namespace Bakery.Tests
      int count = 9;
      Bread newBread = new Bread(count);
      Assert.AreEqual(count, newBread.Count);
+   }
+   public void GetCount_GetCount_Int()
+   {
+     int count = 9;
+     Bread newBread = new Bread(count);
+     int newCount = 7;
+     newBread.Count = newCount;
+     int result = newBread.Count;
+     Assert.AreEqual(newCount, newBread.Count);
    }
   }
 }
