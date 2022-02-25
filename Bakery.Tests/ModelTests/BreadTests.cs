@@ -15,7 +15,7 @@ namespace Bakery.Tests
    [TestMethod]
    public void GetCost_ReturnsCost_Int()
    {
-     int cost = 3;
+     int cost = 0;
      Bread newBread = new Bread(cost);
      Assert.AreEqual(cost, newBread.Cost);
    }
@@ -23,7 +23,7 @@ namespace Bakery.Tests
    {
      int count = 9;
      Bread newBread = new Bread(count);
-     Assert.AreEqual(count, newBread.count);
+     Assert.AreEqual(count, newBread.Count);
    }
   }
 }
