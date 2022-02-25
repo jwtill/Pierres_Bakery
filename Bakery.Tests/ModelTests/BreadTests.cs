@@ -65,6 +65,14 @@ namespace Bakery.Tests
      int result = newBread.calculateCost();
      Assert.AreEqual(15, result);
    }
+
+   [TestMethod]
+   public void CalculateCost_Mult3PlusTwo_Int()
+   {
+     Bread newBread = new Bread(5);
+     int result = newBread.calculateCost();
+     Assert.AreEqual(20, result);
+   }
    
   }
 }
