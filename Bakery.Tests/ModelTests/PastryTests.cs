@@ -7,7 +7,7 @@ namespace Bakery.Tests
   public class PastryTests
   {
    [TestMethod]
-   public void PastryConstructor_CreatesInstanceOfPastry_Bread()
+   public void PastryConstructor_CreatesInstanceOfPastry_Pastry()
    {
      Pastry newPastry = new Pastry(3);
      Assert.AreEqual(typeof(Pastry), newPastry.GetType());
@@ -18,6 +18,15 @@ namespace Bakery.Tests
      int cost = 0;
      Pastry newPastry = new Pastry(1);
      Assert.AreEqual(cost, newPastry.Cost);
+   }
+   [TestMethod]
+   public void SetCount_SetCount_Int()
+   {
+     int count = 9;
+     Pastry newPastry = new Pastry(count);
+     int newCount = 7;
+     newPastry.Count = newCount;
+     Assert.AreEqual(newCount, newPastry.Count);
    }
   }
 }
