@@ -50,5 +50,12 @@ namespace Bakery.Tests
      int result = newPastry.calculateCost();
      Assert.AreEqual(5, result);
    }
+   [TestMethod]
+   public void CalculateCost_Mult3PlusOne_Int()
+   {
+     Pastry newPastry = new Pastry(4);
+     int result = newPastry.calculateCost();
+     Assert.AreEqual(7, result);
+   }
   }
 }
