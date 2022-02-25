@@ -32,13 +32,11 @@ namespace Bakery.Models
       {
         cost = Count * 4;
       } 
-      
       else 
       {
-        return Convert.ToInt32(cost);
+        return 0;
       }
       return Convert.ToInt32(cost);
-
     }
    
   }

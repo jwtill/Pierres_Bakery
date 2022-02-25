@@ -13,6 +13,9 @@ namespace Bakery
       int breadCount = int.Parse(Console.ReadLine());
       Console.WriteLine("How many pastries would you like?");
       int pastryCount = int.Parse(Console.ReadLine());
+
+      Bread newBreadOrder = new Bread(breadCount);
+      Console.WriteLine("Your total of " + breadCount + " loaves is " + "$" + newBreadOrder.calculateCost() + ".");
     }
   }
 }
