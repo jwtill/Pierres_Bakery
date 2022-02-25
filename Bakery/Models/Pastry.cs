@@ -2,6 +2,11 @@ namespace Bakery.Models
 {
   public class Pastry //Class def
   {
-    //put stuff here
+    public int Cost {get;} //field
+    
+    public Pastry()
+    {
+      
+    }
   }
 }
