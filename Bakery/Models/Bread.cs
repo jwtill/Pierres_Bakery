@@ -9,8 +9,11 @@ namespace Bakery.Models
     {
       Cost = 0;
       Count = count;
-
     }
-    //needs to determine cost based on count
+    //Deal method
+    public int calculateCost() {
+      // public int cost = 0;
+      // return cost;
+    }
   }
 }
