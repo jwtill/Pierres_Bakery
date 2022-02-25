@@ -94,3 +94,6 @@
 /Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery.Tests/obj/Debug/net5.0/ref/Bakery.Tests.dll
 /Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery.Tests/obj/Debug/net5.0/Bakery.Tests.pdb
 /Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery.Tests/obj/Debug/net5.0/Bakery.Tests.genruntimeconfig.cache
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery.Tests/bin/Debug/net5.0/Bakery.deps.json
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery.Tests/bin/Debug/net5.0/Bakery.runtimeconfig.json
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery.Tests/bin/Debug/net5.0/Bakery.runtimeconfig.dev.json
