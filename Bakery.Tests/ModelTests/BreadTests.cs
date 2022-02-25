@@ -44,9 +44,16 @@ namespace Bakery.Tests
      Assert.AreEqual(newBread.Cost, result);
    }
    [TestMethod]
-   public void CalculateCost_CalculateCost_Int()
+   public void CalculateCost_Count2Less_Int()
    {
      Bread newBread = new Bread(2);
+     int result = newBread.calculateCost();
+     Assert.AreEqual(10, result);
+   }
+   [TestMethod]
+   public void CalculateCost_Mult3_Int()
+   {
+     Bread newBread = new Bread(3);
      int result = newBread.calculateCost();
      Assert.AreEqual(10, result);
    }
