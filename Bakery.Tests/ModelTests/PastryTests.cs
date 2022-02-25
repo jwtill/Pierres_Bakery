@@ -36,5 +36,12 @@ namespace Bakery.Tests
      int result = newPastry.Count;
      Assert.AreEqual(count, result);
    }
+   [TestMethod]
+   public void CalculateCost_Count2Less_Int()
+   {
+     Pastry newPastry = new Pastry(2);
+     int result = newPastry.calculateCost();
+     Assert.AreEqual(4, result);
+   }
   }
 }
