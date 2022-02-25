@@ -28,11 +28,10 @@ namespace Bakery.Models
       {
         cost = Count * 1.75;
       } 
-      
-      // else if(Count % 3 == 2) 
-      // {
-      //   cost = Count * 4;
-      // } 
+      else if(Count % 3 == 2) 
+      {
+        cost = Count * 1.8;
+      } 
       else 
       {
         return 0;
