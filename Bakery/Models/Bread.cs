@@ -17,16 +17,21 @@ namespace Bakery.Models
      //Calculate cost method
     public int calculateCost() 
     { 
-      int cost = 0;
+      double cost = 0;
+      double decCount = Convert.ToDouble(Count);
       if(Count <= 2) 
       {
         cost += 5 * Count;
+      } else if(Count % 3 == 0) 
+      {
+        cost = Count * 3.33;
       } 
+      
       else 
       {
-        return cost;
+        return Convert.ToInt32(cost);
       }
-      return cost;
+      return Convert.ToInt32(cost);
 
     }
    
