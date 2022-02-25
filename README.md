@@ -10,7 +10,7 @@ A C# console app that simulates a bakery order that returns a cost
 
 ## Get Started
 
-### The Hard Way
+### Download and populate project
 - Ensure that you have installed the latest versions of Git ([instructions](https://github.com/git-guides/install-git)) 
 - In your command line, clone this repository using `$ git clone https://github.com/jwtill/Pierres_Bakery`
 - Navigate to the project directory, run `dotnet restore` to add the neccesary files for testing 
@@ -23,6 +23,7 @@ A C# console app that simulates a bakery order that returns a cost
 This site incorporates the following frameworks and languages:
 
 - C #
+- MS testing
 
 
 The following development tools were used to develop this page:
