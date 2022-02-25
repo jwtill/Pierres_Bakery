@@ -39,10 +39,9 @@ namespace Bakery.Tests
    [TestMethod]
    public void CalculateCost_ReturnCost_Int()
    {
-     int count = 3;
-     Bread newBread = new Bread(count);
-     int result = newBread.calculateCost(count);
-     Assert.AreEqual(count, result);
+     Bread newBread = new Bread(3);
+     int result = newBread.calculateCost();
+     Assert.AreEqual(0, result);
    }
   }
 }
