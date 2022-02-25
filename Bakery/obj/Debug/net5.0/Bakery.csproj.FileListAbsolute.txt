@@ -1,0 +1,12 @@
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/bin/Debug/net5.0/Bakery.deps.json
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/bin/Debug/net5.0/Bakery.dll
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/bin/Debug/net5.0/ref/Bakery.dll
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/bin/Debug/net5.0/Bakery.pdb
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/obj/Debug/net5.0/Bakery.csproj.AssemblyReference.cache
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/obj/Debug/net5.0/Bakery.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/obj/Debug/net5.0/Bakery.AssemblyInfoInputs.cache
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/obj/Debug/net5.0/Bakery.AssemblyInfo.cs
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/obj/Debug/net5.0/Bakery.csproj.CoreCompileInputs.cache
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/obj/Debug/net5.0/Bakery.dll
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/obj/Debug/net5.0/ref/Bakery.dll
+/Users/JoshTillinghast/Desktop/Pierres_Bakery/Bakery/obj/Debug/net5.0/Bakery.pdb
