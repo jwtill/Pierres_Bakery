@@ -8,6 +8,8 @@ namespace Bakery.Models
     public Bread(int count)//constructor
     {
       Cost = 0;
+      Count = count;
+
     }
     //needs to determine cost based on count
   }
