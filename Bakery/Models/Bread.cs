@@ -18,8 +18,8 @@ namespace Bakery.Models
     public int calculateCost() 
     { 
       int cost = 0;
-      if(Count == 1) {
-        cost += 5;
+      if(Count >= 2) {
+        cost += 5 * Count;
       }
       return cost;
     }
