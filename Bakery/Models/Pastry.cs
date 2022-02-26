@@ -1,17 +1,17 @@
 using System;
 namespace Bakery.Models
 {
-  public class Pastry //Class def
+  public class Pastry 
   {
-    public int Cost { get; } //field
+    public int Cost { get; } 
     public int Count { get; set; }
 
-    
     public Pastry(int count)
     {
       Cost = 0;
       Count = count;
     }
+    
     public int calculateCost() 
     { 
       double cost = 0;

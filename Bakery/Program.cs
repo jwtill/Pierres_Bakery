@@ -1,7 +1,5 @@
 using System;
 using Bakery.Models;
-
-
 namespace Bakery 
 {
   public class Program
@@ -17,7 +15,7 @@ namespace Bakery
 
       Bread newBreadOrder = new Bread(breadCount);
       Console.WriteLine("Your " + breadCount + " bread loaves come to " + "$" + newBreadOrder.calculateCost() + ".");
-      
+
       Pastry newPastryOrder = new Pastry(pastryCount);
       Console.WriteLine("Your " + pastryCount + " pastries come to " + "$" + newPastryOrder.calculateCost() + ".");
     }

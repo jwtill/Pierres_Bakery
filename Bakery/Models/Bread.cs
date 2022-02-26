@@ -1,20 +1,17 @@
 using System;
 namespace Bakery.Models
 {
-  public class Bread //Class def
+  public class Bread 
   {
-    public int Cost { get; } //fields
+    public int Cost { get; } 
     public int Count { get; set; }
 
-    
-    
-    public Bread(int count)//constructor
+        public Bread(int count)
     {
       Cost = 0;
       Count = count;
     }
 
-     //Calculate cost method
     public int calculateCost() 
     { 
       double cost = 0;
@@ -38,6 +35,5 @@ namespace Bakery.Models
       }
       return Convert.ToInt32(cost);
     }
-   
   }
 }

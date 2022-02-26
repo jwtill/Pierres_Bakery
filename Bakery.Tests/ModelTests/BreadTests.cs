@@ -57,7 +57,6 @@ namespace Bakery.Tests
      int result = newBread.calculateCost();
      Assert.AreEqual(10, result);
    }
-
    [TestMethod]
    public void CalculateCost_Mult3PlusOne_Int()
    {
@@ -65,7 +64,6 @@ namespace Bakery.Tests
      int result = newBread.calculateCost();
      Assert.AreEqual(15, result);
    }
-
    [TestMethod]
    public void CalculateCost_Mult3PlusTwo_Int()
    {
