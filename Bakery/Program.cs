@@ -14,10 +14,11 @@ namespace Bakery
       int pastryCount = int.Parse(Console.ReadLine());
 
       Bread newBreadOrder = new Bread(breadCount);
-      Console.WriteLine("Your " + breadCount + " bread loaves come to " + "$" + newBreadOrder.calculateCost() + ".");
+      Console.Write("Your " + breadCount + " bread loaves come to " + "$" + newBreadOrder.calculateCost() + ". ");
 
       Pastry newPastryOrder = new Pastry(pastryCount);
       Console.WriteLine("Your " + pastryCount + " pastries come to " + "$" + newPastryOrder.calculateCost() + ".");
+      Console.WriteLine("Your total comes to " + "$"+( newBreadOrder.calculateCost()+ newPastryOrder.calculateCost()+"."));
     }
   }
 }
