@@ -13,7 +13,7 @@ namespace Bakery
       Console.WriteLine("How many pastries would you like?");
       int pastryCount = int.Parse(Console.ReadLine());
 
-      Bread newBreadOrder = new Bread(breadCount);
+      Bread newBreadOrder = new Bread(breadCount, "white");
       Console.Write("Your " + breadCount + " bread loaves come to " + "$" + newBreadOrder.calculateCost() + ". ");
 
       Pastry newPastryOrder = new Pastry(pastryCount);

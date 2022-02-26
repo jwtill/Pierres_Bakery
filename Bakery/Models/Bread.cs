@@ -5,11 +5,13 @@ namespace Bakery.Models
   {
     public int Cost { get; } 
     public int Count { get; set; }
+    public string Kind { get; set;}
 
-        public Bread(int count)
+        public Bread(int count, string kind)
     {
       Cost = 0;
       Count = count;
+      Kind = kind;
     }
 
     public int calculateCost() 
