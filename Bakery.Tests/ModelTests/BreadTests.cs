@@ -71,6 +71,15 @@ namespace Bakery.Tests
      int result = newBread.calculateCost();
      Assert.AreEqual(20, result);
    }
+  [TestMethod]
+   public void SetKind_SetKind_String()
+   {
+     int kind = Challah;
+     Bread newBread = new Bread(1, kind);
+     int newKind = Rye;
+     newBread.Kind = newKind;
+     Assert.AreEqual(newKind, newBread.Kind);
+   }
    
   }
 }
