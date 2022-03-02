@@ -16,26 +16,42 @@ namespace Bakery.Models
 
     public int calculateCost() 
     { 
-      double cost = 0;
-      double decCount = Convert.ToDouble(Count);
-      if(decCount <= 2) 
-      {
-        cost += 5 * decCount;
-      } else if(decCount % 3 == 0) 
-      {
-        cost = decCount * 3.33;
-      } else if(decCount % 3 == 1) 
-      {
-        cost = decCount * 3.75;
-      } else if(decCount % 3 == 2) 
-      {
-        cost = decCount * 4;
-      } 
-      else 
-      {
-        return 0;
+      int cost = 0;
+      for(int i = 1; i <= Count; i++) {
+        if (Count % 3 == 0) 
+        {
+          cost += 0;
+        } else 
+        {
+          cost ++;
+        }
+        
       }
-      return Convert.ToInt32(cost);
+      return cost * 5;
+      
+      // double cost = 0;
+      // double decCount = Convert.ToDouble(Count);
+      // if(decCount <= 2) 
+      // {
+      //   cost += 5 * decCount;
+      // } else if(decCount % 3 == 0) 
+      // {
+      //   cost = decCount * 3.33;
+      // } else if(decCount % 3 == 1) 
+      // {
+      //   cost = decCount * 3.75;
+      // } else if(decCount % 3 == 2) 
+      // {
+      //   cost = decCount * 4;
+      // } 
+      // else 
+      // {
+      //   return 0;
+      // }
+      // return Convert.ToInt32(cost);
     }
   }
 }
+
+
+
