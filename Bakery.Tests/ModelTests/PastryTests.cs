@@ -35,33 +35,20 @@ namespace Bakery.Tests
      int result = newPastry.Count;
      Assert.AreEqual(count, result);
    }
+  
    [TestMethod]
-   public void CalculateCost_Count2Less_Int()
+   public void CalculateCost_CalculateCost_Int()
    {
      Pastry newPastry = new Pastry(2);
      int result = newPastry.calculateCost();
      Assert.AreEqual(4, result);
    }
-  [TestMethod]
-   public void CalculateCost_Mult3_Int()
+   [TestMethod]
+   public void CalculateCost_CalculateCost3_Int()
    {
      Pastry newPastry = new Pastry(3);
      int result = newPastry.calculateCost();
      Assert.AreEqual(5, result);
-   }
-   [TestMethod]
-   public void CalculateCost_Mult3PlusOne_Int()
-   {
-     Pastry newPastry = new Pastry(4);
-     int result = newPastry.calculateCost();
-     Assert.AreEqual(7, result);
-   }
-   [TestMethod]
-   public void CalculateCost_Mult3PlusTwo_Int()
-   {
-     Pastry newPastry = new Pastry(5);
-     int result = newPastry.calculateCost();
-     Assert.AreEqual(9, result);
    }
   }
 }
