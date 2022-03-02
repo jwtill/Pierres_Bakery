@@ -43,43 +43,52 @@ namespace Bakery.Tests
      int result = newBread.calculateCost();
      Assert.AreEqual(newBread.Cost, result);
    }
+  //  [TestMethod]
+  //  public void CalculateCost_Count2Less_Int()
+  //  {
+  //    Bread newBread = new Bread(2, "white");
+  //    int result = newBread.calculateCost();
+  //    Assert.AreEqual(10, result);
+  //  }
+  //  [TestMethod]
+  //  public void CalculateCost_Mult3_Int()
+  //  {
+  //    Bread newBread = new Bread(3, "white");
+  //    int result = newBread.calculateCost();
+  //    Assert.AreEqual(10, result);
+  //  }
+  //  [TestMethod]
+  //  public void CalculateCost_Mult3PlusOne_Int()
+  //  {
+  //    Bread newBread = new Bread(4, "white");
+  //    int result = newBread.calculateCost();
+  //    Assert.AreEqual(15, result);
+  //  }
+  //  [TestMethod]
+  //  public void CalculateCost_Mult3PlusTwo_Int()
+  //  {
+  //    Bread newBread = new Bread(5, "white");
+  //    int result = newBread.calculateCost();
+  //    Assert.AreEqual(20, result);
+  //  }
+  // [TestMethod]
+  //  public void SetKind_SetKind_String()
+  //  {
+  //    string kind = "Challah";
+  //    Bread newBread = new Bread(1, kind);
+  //    string newKind = "Rye";
+  //    newBread.Kind = newKind;
+  //    Assert.AreEqual(newKind, newBread.Kind);
+  //  }
+  
    [TestMethod]
-   public void CalculateCost_Count2Less_Int()
+   public void CalculateCost_CalculateCost_Int()
    {
      Bread newBread = new Bread(2, "white");
      int result = newBread.calculateCost();
      Assert.AreEqual(10, result);
    }
-   [TestMethod]
-   public void CalculateCost_Mult3_Int()
-   {
-     Bread newBread = new Bread(3, "white");
-     int result = newBread.calculateCost();
-     Assert.AreEqual(10, result);
-   }
-   [TestMethod]
-   public void CalculateCost_Mult3PlusOne_Int()
-   {
-     Bread newBread = new Bread(4, "white");
-     int result = newBread.calculateCost();
-     Assert.AreEqual(15, result);
-   }
-   [TestMethod]
-   public void CalculateCost_Mult3PlusTwo_Int()
-   {
-     Bread newBread = new Bread(5, "white");
-     int result = newBread.calculateCost();
-     Assert.AreEqual(20, result);
-   }
-  [TestMethod]
-   public void SetKind_SetKind_String()
-   {
-     string kind = "Challah";
-     Bread newBread = new Bread(1, kind);
-     string newKind = "Rye";
-     newBread.Kind = newKind;
-     Assert.AreEqual(newKind, newBread.Kind);
-   }
+
    
   }
 }
