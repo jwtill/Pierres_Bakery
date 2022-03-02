@@ -88,6 +88,13 @@ namespace Bakery.Tests
      int result = newBread.calculateCost();
      Assert.AreEqual(10, result);
    }
+   [TestMethod]
+   public void CalculateCost_CalculateCost3_Int()
+   {
+     Bread newBread = new Bread(3, "white");
+     int result = newBread.calculateCost();
+     Assert.AreEqual(10, result);
+   }
 
    
   }
